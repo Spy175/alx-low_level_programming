@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strcat - concentrates two strings
+ * _strcat - concatenates two strings
  * @dest: input value
  * @src: input value
  *
@@ -24,6 +24,7 @@ char *_strcat(char *dest, char *src)
 		j++;
 	}
 
-	dest[[i] = '\0';
+	dest[i] = '\0';
 	return (dest);
 }
+
